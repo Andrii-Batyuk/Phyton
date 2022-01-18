@@ -1,4 +1,4 @@
-# Home Work 1
+#Phyton Home Work  1
 color = "red"
 age =  "3 month"
 animal = "squirrel"
