@@ -17,4 +17,4 @@ elif day == 6:
 elif day == 7:
     print("Saturday")
 else:
-    print("You typed value more than 7")
+    print("You input value more than 7")

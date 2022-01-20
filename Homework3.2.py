@@ -5,7 +5,7 @@
 
 month = int(input("Enter number of month (1-12): "))
 if month <= 0:
-    print("You type value equal or below zero")
+    print("You input value equal or below zero")
 elif month == 1:
     print("January")
 elif month == 2:
@@ -31,4 +31,4 @@ elif month == 11:
 elif month == 12:
     print("December")
 else:
-    print("You type value more than 12")
+    print("You input value more than 12")
