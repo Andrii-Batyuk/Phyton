@@ -78,12 +78,19 @@
 #     if y == 0:
 #         print("The dot lays in a Y axis")
 
-number = int(input("Please enter a number :"))
-if number == 0:
-    print("You type zero")
-elif number % 7 == 0:
-     print("The number is multiply 7")
-elif number % 7 != 0:
-   print("The number is not multiply 7")
-else:
-    print("Error")
+# number = int(input("Please enter a number :"))
+# if number == 0:
+#     print("You type zero")
+# elif number % 7 == 0:
+#      print("The number is multiply 7")
+# elif number % 7 != 0:
+#    print("The number is not multiply 7")
+# else:
+#     print("Error")
+
+
+seconds = int(input("Enter how much seconds is pass to enumerate how much time you have till midnight "))
+if seconds == 0:
+    print("Till midnight whole day!")
+last = 86400 - seconds ;
+print("till midnight", last / 60, "minutes, or", last / 60 / 60, "hours")
