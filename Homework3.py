@@ -1,4 +1,4 @@
-#Phyton Home Work 3
+#Python Home Work 3
 day = int(input("Enter number of the day to see it's name ( 1 -7 ): "))
 if day <= 0:
     print("You input value equal zero or below!")
@@ -17,4 +17,4 @@ elif day == 6:
 elif day == 7:
     print("Saturday")
 else:
-    print("You typed value more than 7")
+    print("You input value more than 7")
