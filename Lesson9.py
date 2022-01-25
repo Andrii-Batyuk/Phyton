@@ -151,8 +151,8 @@
 
 import random
 
-width = 7
-height = 7
+width = 3
+height = 3
 symbol = random.randint(1, 9)
 
 for i in range(height):
