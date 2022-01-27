@@ -36,21 +36,23 @@ counter3 = 0
 for i in range(num1):
     if i % 2 == 0:
         counter1 = counter1 + 1
-        if (counter1 / 2) == num1:
-            print(i)
+        if (num1 / 2) == counter1:
+            print(counter1)
 
 for b in range(num2):
-    if i % 2 == 0:
-        counter2 = counter2 + 1
-        if (counter2 / 2) == num1:
-            print(b)
+    if b % 2 == 0:
+        counter2 = counter2 + b
+        if (num2 / 2) == counter2:
+            print(counter2)
 
 for z in range(num3):
-    if i % 2 == 0:
-        counter3 = counter3 + 1
-        print(counter3)
-        if (counter3 / 2) == num1:
-            print(z)
+    if z % 2 == 0:
+        counter3 = counter3 + z
+        if (num3 / 2) == counter3:
+            print(counter3)
+
+
+
 # Даны три целых числа. Определите, сколько среди них совпадающих.
 # Программа должна вывести одно из чисел: 3 (если все совпадают), 2 (если два совпадает) или 0 (если все числа различны).
 
