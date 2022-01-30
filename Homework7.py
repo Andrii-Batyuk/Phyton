@@ -8,6 +8,7 @@ num2 = int(input("Input end of the range: "))
 
 if num1 > num2:
     print("You typed wrong values, try again. ")
+
 while num2 >= num1:
 
     if num2 % 7 == 0:
