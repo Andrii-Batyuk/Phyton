@@ -9,6 +9,8 @@ guess_number = 0
 counter = 0
 score_player = 0
 score_comp = 0
+
+
 while guess_number != magic_number and attempts > 0:
     print(f"Attempt № {counter+1} and {attempts-1} attempts left.")
     guess_number = int(input("Input guess number (1-20): "))
