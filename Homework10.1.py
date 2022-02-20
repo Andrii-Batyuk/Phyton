@@ -5,26 +5,18 @@
 # слова и изменить их регистр на верхний. Вывести на
 # экран измененный текст.
 
-
-
-
-
-
 # Variables
+user_str = str(input("Input some text: "))
+user_word = input("Input worlds to change in uppercase: ")
+# Converting string in lowercase
+user_str = user_str.lower()
+# Creating list
+user_word = user_word.split()
+# Cycle to change words in uppercase
+for i in user_word:
+    user_str = user_str.replace(i.lower(), i.upper())
+# Displaying results
+print(user_str)
 
-user_str = str(input("Input some string: "))
-user_word = list(input("Input some worlds: "))
+# Some text to change. Let's try to convert it!
 
-print(user_word)
-# c = ''
-# # Cycle for removing spaces
-# for i in a:
-#     if i == ' ':
-#         continue  # Removing spaces
-#     b = b + i
-# c = b[::-1]  # Create reverse string
-# # Compare with lowercase and print results
-# if c.lower() == b.lower():
-#     print(a, "is palindrome!")
-# else:
-#     print(a, "is not palindrome((")
