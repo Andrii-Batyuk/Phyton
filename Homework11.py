@@ -7,7 +7,7 @@ a = str(input("Input some impression: "))
 operators = ['+', '-', '*', '/']
 operator = 0
 operator_index = 0
-# Cycle for enumerating position of operator
+# Cycle for enumerating type of operator
 for i in a:
     for b in operators:
         if b == i:
