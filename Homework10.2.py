@@ -3,7 +3,6 @@
 # личество предложений и выведите на экран полученный
 # результат.
 
-
 # Variables
 user_str = str(input("Input some string: "))
 last = len(user_str)
