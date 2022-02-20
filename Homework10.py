@@ -21,3 +21,4 @@ if c.lower() == b.lower():
 else:
     print(a, "is not palindrome((")
 
+
