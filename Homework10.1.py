@@ -5,6 +5,7 @@
 # слова и изменить их регистр на верхний. Вывести на
 # экран измененный текст.
 
+
 # Variables
 user_str = str(input("Input some text: "))
 user_word = input("Input worlds to change in uppercase: ")
