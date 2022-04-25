@@ -27,9 +27,9 @@
 
 
 num1 = int(input("Input count of children in class N1: "))
-num2 = int(input("Input count of children in class N1: "))
-num3 = int(input("Input count of children in class N1: "))
-counter1 = 0
+num2 = int(input("Input count of children in class N2: "))
+num3 = int(input("Input count of children in class N3: "))
+
 counter2 = 0
 counter3 = 0
 
@@ -39,11 +39,13 @@ for i in range(num1):
         if (num1 / 2) == counter1:
             print(counter1)
 
+
 for b in range(num2):
     if b % 2 == 0:
-        counter2 = counter2 + b
+        counter2 = counter2 + 1
         if (num2 / 2) == counter2:
             print(counter2)
+
 
 for z in range(num3):
     if z % 2 == 0:

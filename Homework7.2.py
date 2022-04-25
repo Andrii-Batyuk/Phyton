@@ -12,7 +12,6 @@
 a = int(input("Input start of the range: "))
 b = int(input("Input end of the range: "))
 
-
 if a < b:
 
     for i in range(a, b+1):
