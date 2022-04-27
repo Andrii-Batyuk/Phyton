@@ -15,3 +15,4 @@ driver.save_screenshot('yanigen_home_page.png')
 # 4 Close site
 time.sleep(10)
 driver.close()
+
