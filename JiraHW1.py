@@ -3,7 +3,7 @@ import time
 
 # 1 Open site yanigen.com.ua
 driver = webdriver.Chrome()
-driver.get('http://yanigen.com.ua')
+driver.get('http://www.yanigen.com.ua')
 
 # 2 Maximize window
 driver.maximize_window()
