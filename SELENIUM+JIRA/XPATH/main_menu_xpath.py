@@ -1,4 +1,4 @@
-
+# XPATHES for main and submenu of site www.yanigen.com.ua
 home_en = '//a[contains(text(),"HOME")]'
 products_to_order_en = '//a[contains(text(),"PRODUCTS TO ORDER")]'
 catalog_en = '//a[contains(text(),"CATALOG")]'
