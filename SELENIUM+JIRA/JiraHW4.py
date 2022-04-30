@@ -34,5 +34,4 @@ ukrainian_button = WebDriverWait(driver, 60).until(
 ukrainian_button.click()
 
 # 5 close site
-
 driver.close()
