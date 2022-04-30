@@ -10,3 +10,4 @@ exchange_and_return_en = '/html/body/div[1]/div[2]/section/div/div/article/div/d
 payment_and_delivery_en = '/html/body/div[1]/div[2]/section/div/div/article/div/div[1]/div/div/div[1]/ul/li[1]/span'
 about_us_en = '//a[contains(text(),"ABOUT US")]'
 contacts_en = '//a[contains(text(),"CONTACTS")]'
+
