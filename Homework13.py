@@ -7,8 +7,12 @@ Bill Gates
 """
 print("Task 1")
 
+
 def function1():
-    print("“Don't compare yourself with anyone in this world...\n if you do so, you are insulting yourself.”\n\t\t\t\t\t\t\t\t\t\tBill Gates")
+    print(
+        "“Don't compare yourself with anyone in this world...\n if you do so, you are insulting yourself.”\n\t\t\t\t\t\t\t\t\t\tBill Gates")
+
+
 function1()
 
 """Задание 2
@@ -18,12 +22,14 @@ function1()
 
 print("Task 2")
 
+
 def function2(a, b):
-    for i in range(a, b+1):
+    for i in range(a, b + 1):
         if i % 2 == 0:
             print(i)
-function2(4, 8)
 
+
+function2(4, 8)
 
 """Задание 3
 Напишите функцию, которая отображает пустой или
@@ -36,22 +42,39 @@ function2(4, 8)
 
 print("Task 3")
 
-def function3(a, b, c):
+
+def function3(len, sym, control):
+    height = len
+    space = " "
+    if control:
+        for i in range(len):
+            print(height * sym)
+    elif not control:
+        for i in range(len):
+            if i == 0 or i == height - 1:
+                print(height * sym)
+            else:
+                print(sym + ((height - 2) * space) + sym)
 
 
-function2(4, 8, True)
+function3(8, '*', False)
 
 """Задание 4
 Напишите функцию, которая возвращает минимальное
 из пяти чисел. Числа передаются в качестве параметров."""
 
-
 print("Task 4")
 
+
 def function4(a, b, c, d, e):
+    minimal = a
+    for i in a, b, c, d, e:
+        if minimal > i:
+            minimal = i
+    print(minimal)
 
 
-function2(4, 8, 0, -2, 1)
+function4(14, -8, 30, -23, 11)
 
 """Задание 5
 Напишите функцию, которая возвращает произве-
@@ -61,15 +84,18 @@ function2(4, 8, 0, -2, 1)
 нижняя граница), их нужно поменять местами."""
 
 print("Task 5")
+
+
 def function5(a, b):
     if a < b:
-        for i in range(a+1, b+1):
+        for i in range(a + 1, b + 1):
             a = a * i
         print(a)
     elif a > b:
-        for i in range(b+1, a+1):
+        for i in range(b + 1, a + 1):
             b = b * i
         print(b)
+
 
 function5(5, 3)
 function5(3, 5)
@@ -81,14 +107,16 @@ function5(3, 5)
 Например, если передали 3456, количество цифр будет 4."""
 
 print("Task 6")
+
+
 def function6(a):
     counter = 0
     for i in str(a):
         counter = counter + 1
     print(counter)
+
+
 function6(123410)
-
-
 
 """Задание 7
 Напишите функцию, которая проверяет является ли
@@ -103,6 +131,7 @@ true, иначе false.
 
 print("Task 7")
 
+
 def function7(a):
     # Variables
     string = str(a)
@@ -114,17 +143,16 @@ def function7(a):
     # Enumerate is string is even and calculate middle of the string
     if counter % 2 == 0:
         delim = counter // 2
-    # Compare slices of the string and print results
-        if (string[:delim]) == (string[:delim-1:-1]):
+        # Compare slices of the string and print results
+        if (string[:delim]) == (string[:delim - 1:-1]):
             print((string[:delim]), "is equal", (string[delim:]))
-        elif (string[:delim]) != (string[:delim-1:-1]):
+        elif (string[:delim]) != (string[:delim - 1:-1]):
             print((string[:delim]), "is NOT equal", (string[delim:]))
     else:
         print("This string is odd!")
+
 
 function7(884466333222222222222222222222222222222222222222222222222222222333664488)
 function7("asdfewrdwerdsf")
 function7("123 asd                                              dsa 321")
 function7("123")
-
-
