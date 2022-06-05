@@ -106,6 +106,3 @@ for q in list_2:
 min_max_list.append(max2)
 
 print(min_max_list)
-
-
-list_5 = [for i in range(18)]
